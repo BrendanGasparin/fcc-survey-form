@@ -68,3 +68,7 @@ input[type="radio"], input[type="checkbox"] {
     width: 25%;
     vertical-align: middle;
 }
+
+.mandatory-p {
+    margin-top: 2em;
+}
