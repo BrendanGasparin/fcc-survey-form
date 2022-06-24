@@ -32,6 +32,14 @@ label, input {
     display: block;
 }
 
+label {
+    margin: 0.5em 0;
+}
+
 input[type="submit"] {
     margin-top: 0.75em;
+}
+
+input {
+    height: 2em;
 }
