@@ -19,12 +19,11 @@
         </fieldset>
         <fieldset>
           <label for="dropdown">What is your skill level in programming?</label>
-          <!-- Is this the right way to do dropdowns? Name and value? Check! -->
-          <select id="dropdown">
-            <option name="experience" value="">(Choose one)</option>
-            <option name="experience" value="beginner">Beginner</option>
-            <option name="experience" value="intermediate">Intermediate</option>
-            <option name="experience" value="advanced">Advanced</option>
+          <select id="dropdown" name="experience">
+            <option value="">(Choose one)</option>
+            <option value="beginner">Beginner</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
           </select>
           <p>What is your primary operating system?</p>
           <div><label class="check-label" for="windows">Windows </label><input type="radio" id="windows" name="os" value="windows" /></div>
