@@ -5,7 +5,7 @@ body {
     margin: 0;
 }
 
-div {
+div.main-div {
     background-color: goldenrod;
     border: 5px double black;
     width: 80vw;
@@ -41,4 +41,16 @@ input[type="submit"] {
 
 input, select, option {
     height: 2em;
+}
+
+.radio-label {
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    width: 25%;
+    vertical-align: middle;
 }

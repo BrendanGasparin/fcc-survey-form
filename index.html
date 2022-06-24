@@ -7,7 +7,7 @@
     <link href="styles.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <div>
+    <div class="main-div">
       <h1 id="title">Survey Form</h1>
       <p id="description">Please fill out the following survey.</p>
       <form id="survey-form">
@@ -19,12 +19,17 @@
         </fieldset>
         <fieldset>
           <label for="dropdown">What is your skill level in programming</label>
+          <!-- Is this the right way to do dropdowns? Name and value? Check! -->
           <select id="dropdown">
             <option name="experience" value="">(Choose one)</option>
             <option name="experience" value="beginner">Beginner</option>
             <option name="experience" value="intermediate">Intermediate</option>
             <option name="experience" value="advanced">Advanced</option>
           </select>
+          <p>What is your primary operating system?</p>
+          <div class="radio-div"><label class="radio-label" for="windows">Windows </label><input type="radio" id="windows" name="os" value="windows" /></div>
+          <div class="radio-div"><label class="radio-label" for="macos">MacOS </label><input type="radio" id="macos" name="os" value="macos" /></div>
+          <div class="radio-div"><label class="radio-label" for="linux">Linux </label><input type="radio" id="linux" name="os" value="linux" /></div>
         </fieldset>
         <input type="submit" id="submit" value="Submit" />
       </form>
