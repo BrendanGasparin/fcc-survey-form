@@ -10,7 +10,7 @@ h1, p#description {
 h1 {
     background-color: beige;
     border: 1px solid black;
-    padding: 1em 0;
+    padding: 0.5em 0;
 }
 
 form, h1 {
