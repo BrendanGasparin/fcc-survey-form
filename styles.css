@@ -39,6 +39,6 @@ input[type="submit"] {
     background-color: beige;
 }
 
-input {
+input, select, option {
     height: 2em;
 }
