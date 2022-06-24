@@ -53,6 +53,7 @@ input, option {
 select {
     width: 50%;
     height: 2.5em;
+    color: black;
 }
 
 .check-label {
@@ -65,4 +66,8 @@ input[type="radio"], input[type="checkbox"] {
     display: inline-block;
     width: 25%;
     vertical-align: middle;
+}
+
+option {
+    color: black;
 }
