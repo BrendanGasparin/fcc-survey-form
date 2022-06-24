@@ -1,5 +1,6 @@
 body {
     background-color: goldenrod;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1, p#description {
@@ -9,6 +10,7 @@ h1, p#description {
 h1 {
     background-color: beige;
     border: 1px solid black;
+    padding: 1em 0;
 }
 
 form, h1 {
