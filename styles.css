@@ -9,6 +9,7 @@ div {
     min-width: 300px;
     max-width: 500px;
     margin: 0 auto;
+    padding: 0.5em 1em 1em 1em;
 }
 
 h1, p#description {
@@ -20,13 +21,6 @@ h1 {
     border: 1px solid black;
     padding: 0.5em 0;
 }
-
-/* form, h1 {
-    width: 80vw;
-    min-width: 300px;
-    max-width: 500px;
-    margin: 0 auto;
-} */
 
 label, input {
     width: 100%;
