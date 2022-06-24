@@ -46,8 +46,13 @@ input[type="submit"] {
     color: white;
 }
 
-input, select, option {
+input, option {
     height: 2em;
+}
+
+select {
+    width: 50%;
+    height: 2.5em;
 }
 
 .check-label {
