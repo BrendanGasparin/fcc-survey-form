@@ -12,10 +12,10 @@
       <p id="description">Please fill out the following survey.</p>
       <form id="survey-form">
         <fieldset>
-          <label for="name" id="name">Enter full name: </label><input type="text" id="name" name="name" placeholder="Enter full name..." required />
-          <label for="username" id="username-label">Enter username: </label><input type="text" id="username" minlength="8" maxlength="15" name="username" placeholder="Enter username..." required />
-          <label for="email" id="email-label">Enter email: </label><input type="email" id="email" name="email" placeholder="Enter email address..." required />
-          <label for="number" id="number-label">Enter age: </label><input type="number" id="number" max="120" min="13" name="age" placeholder="Enter your age..." required />
+          <label for="name" id="name">Enter full name: * </label><input type="text" id="name" name="name" placeholder="Enter full name..." required />
+          <label for="username" id="username-label">Enter username: * </label><input type="text" id="username" minlength="8" maxlength="15" name="username" placeholder="Enter username..." required />
+          <label for="email" id="email-label">Enter email: * </label><input type="email" id="email" name="email" placeholder="Enter email address..." required />
+          <label for="number" id="number-label">Enter age: * </label><input type="number" id="number" max="120" min="13" name="age" placeholder="Enter your age..." required />
         </fieldset>
         <fieldset>
           <label for="dropdown">What is your skill level in programming?</label>
@@ -45,6 +45,7 @@
             <textarea rows="5" cols="30" name="specify" placeholder="I heard of your website from..."></textarea>
         </fieldset>
         <input type="submit" id="submit" value="Submit" />
+        <p>(*) Mandatory field</p>
       </form>
     </div>
   </body>
