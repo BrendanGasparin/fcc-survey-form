@@ -25,6 +25,10 @@ h1 {
     padding: 0.5em 0;
 }
 
+fieldset:not(:last-of-type) {
+    margin-bottom: 1em;
+}
+
 label, input {
     width: 100%;
     display: block;
