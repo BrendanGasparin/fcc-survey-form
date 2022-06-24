@@ -54,6 +54,7 @@ input, option {
 select {
     width: 50%;
     height: 2.5em;
+    /* for Chrome on iOS */
     color: black;
 }
 
